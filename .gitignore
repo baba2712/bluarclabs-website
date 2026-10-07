@@ -1,0 +1,5 @@
+# Internal planning notes stay off the public repo
+docs/
+.claude/
+Thumbs.db
+.DS_Store
