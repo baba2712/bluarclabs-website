@@ -5,28 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Page not found | Bluarc Labs</title>
   <meta name="robots" content="noindex">
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/styles.css">
   <style>
-    .nf { min-height: 100vh; display: flex; align-items: center; }
-    .nf h1 { font-size: clamp(32px, 5vw, 52px); font-weight: 600; margin-bottom: 20px; }
-    .nf .lead { margin-bottom: 36px; max-width: 520px; }
-    .nf .wordmark { margin-bottom: 64px; }
+    :root { --navy:#0A1F44; --blue:#1565D8; --blue-hover:#0F52B5; --ice:#EEF4FC; --text:#3A4A63; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; color:var(--text); background:#fff;
+      background-image:linear-gradient(var(--ice) 1px,transparent 1px),linear-gradient(90deg,var(--ice) 1px,transparent 1px); background-size:40px 40px; }
+    .nf { min-height:100vh; display:flex; align-items:center; }
+    .container { width:100%; max-width:1200px; margin:0 auto; padding:0 24px; }
+    .wordmark { display:inline-flex; align-items:center; gap:10px; color:var(--navy); text-decoration:none; margin-bottom:64px; }
+    .wordmark svg { width:30px; height:30px; }
+    .wordmark span { font-size:17px; letter-spacing:.16em; }
+    .eyebrow { display:flex; align-items:center; gap:10px; font-family:"IBM Plex Mono",monospace; font-size:13px; font-weight:500; letter-spacing:.12em; text-transform:uppercase; color:var(--blue); margin:0 0 18px; }
+    .eyebrow::before { content:""; width:28px; height:2px; background:var(--blue); }
+    h1 { color:var(--navy); font-size:clamp(32px,5vw,52px); font-weight:600; letter-spacing:-.02em; line-height:1.1; margin:0 0 20px; }
+    p.lead { font-size:19px; line-height:1.6; margin:0 0 36px; max-width:520px; }
+    .btn { display:inline-block; background:var(--blue); color:#fff; text-decoration:none; font-weight:500; padding:16px 26px; border-radius:4px; }
+    .btn:hover { background:var(--blue-hover); }
   </style>
 </head>
 <body>
-  <main class="nf hero">
+  <main class="nf">
     <div class="container">
       <a class="wordmark" href="/" aria-label="Bluarc Labs home">
-        <svg class="wordmark-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
           <path d="M5 24a11 11 0 0 1 22 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
           <path d="M10.5 24a5.5 5.5 0 0 1 11 0" fill="none" stroke="#1565D8" stroke-width="3" stroke-linecap="round"/>
           <circle cx="16" cy="24" r="2" fill="#1565D8"/>
         </svg>
-        <span class="wordmark-text"><strong>BLUARC</strong> LABS</span>
+        <span><strong>BLUARC</strong> LABS</span>
       </a>
       <p class="eyebrow">Error 404</p>
       <h1>Page not found</h1>
