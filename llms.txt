@@ -1,16 +1,15 @@
 # Bluarc Labs
 
-> Bluarc Labs is an industrial technology company based in India. It works on OT (operational technology) security, Industry 4.0 and plant analytics, and embedded hardware and sensing for industrial plants.
+> Bluarc Labs is an industrial technology company based in India. It works on OT (operational technology) security, Industry 4.0 and plant analytics, and embedded hardware and sensing for industrial plants. Tagline: "Real conditions. Clearer decisions."
 
-- Website: https://bluarclabs.com/
-- Contact: founder@bluarclabs.com
+Contact: founder@bluarclabs.com
 
-## Focus areas
+## Pages
 
-- Industrial (OT) security: protecting the computers that run production, such as operator stations, engineering workstations and plant-floor PCs, where standard IT security tools don't fit.
-- Industry 4.0 and plant analytics: condition monitoring, plant analytics and predictive maintenance.
-- Embedded hardware and sensing: wireless sensing and instrumentation for harsh industrial environments.
-
-## Products
-
-- SAFE by Bluarc Labs: security for industrial computers. In development.
+- [Home](https://bluarclabs.com/): overview of the company, why plants are different, focus areas, approach and industries.
+- [OT security](https://bluarclabs.com/ot-security/): protecting the computers that run production (operator stations, engineering workstations, plant-floor PCs) where standard IT security tools don't fit. Informed by IEC 62443 and NIST SP 800-82.
+- [Plant analytics](https://bluarclabs.com/plant-analytics/): condition monitoring, predictive maintenance and process analytics.
+- [Embedded sensing](https://bluarclabs.com/embedded-sensing/): wireless condition sensors and embedded hardware designed in-house for harsh industrial environments.
+- [SAFE by Bluarc Labs](https://bluarclabs.com/safe/): security for industrial computers (plant-floor PCs and operator stations). In development; a 3-month pilot is planned with a large Indian manufacturer. Technical detail is shared in private briefings.
+- [Company](https://bluarclabs.com/company/): about Bluarc Labs, the meaning of the name, principles.
+- [Contact](https://bluarclabs.com/contact/): enquiry topics and email.
