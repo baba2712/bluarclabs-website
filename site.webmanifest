@@ -1,0 +1,15 @@
+{
+  "id": "/",
+  "name": "Bluarc Labs",
+  "short_name": "Bluarc",
+  "description": "Industrial technology company in India: OT security, plant analytics and embedded sensing.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#EDF4FA",
+  "theme_color": "#155DA6",
+  "icons": [
+    { "src": "/assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

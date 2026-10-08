@@ -1,0 +1,16 @@
+# Bluarc Labs
+
+> Bluarc Labs is an industrial technology company based in India. It works on OT (operational technology) security, Industry 4.0 and plant analytics, and embedded hardware and sensing for industrial plants.
+
+- Website: https://bluarclabs.com/
+- Contact: founder@bluarclabs.com
+
+## Focus areas
+
+- Industrial (OT) security: protecting the computers that run production, such as operator stations, engineering workstations and plant-floor PCs, where standard IT security tools don't fit.
+- Industry 4.0 and plant analytics: condition monitoring, plant analytics and predictive maintenance.
+- Embedded hardware and sensing: wireless sensing and instrumentation for harsh industrial environments.
+
+## Products
+
+- SAFE by Bluarc Labs: security for industrial computers. In development.
