@@ -1,4 +1,4 @@
-"""Build the Bluarc Labs static site.
+"""Build the BluArc Labs static site.
 
 Each page's metadata lives in PAGES below; its main sections live in
 src/pages/<key>.html. Shared head, header, page hero, FAQ, related links,
@@ -18,12 +18,6 @@ PAGES_DIR = Path(__file__).resolve().parent / "pages"
 SITE = "https://bluarclabs.com"
 EMAIL = "founder@bluarclabs.com"
 LASTMOD = "2026-10-08"
-
-SYMBOL_PATH = (
-    "M87.863 26.137A1.5 1.5 0 0 0 87.829 23.982A48 48 0 0 0 7 59V84H22V59"
-    "A33 33 0 0 1 77.298 34.673A1.5 1.5 0 0 0 79.372 34.628Z"
-    "M29.25 59A25.75 25.75 0 1 0 80.75 59A25.75 25.75 0 1 0 29.25 59Z"
-)
 
 NAV = [
     ("ot-security", "/ot-security/", "OT security"),
@@ -46,32 +40,32 @@ PAGES = [
     {
         "key": "home",
         "path": "/",
-        "title": "Bluarc Labs | OT Security & Plant Analytics, India",
+        "title": "BluArc Labs | OT Security & Plant Analytics, India",
         "description": "Industrial technology company in India building OT security, plant analytics and embedded sensing for manufacturing plants. Real conditions. Clearer decisions.",
         "og_image": "/assets/og/home.png",
-        "og_alt": "Bluarc Labs. Progress, on common ground. Industrial technology, India.",
+        "og_alt": "BluArc Labs. Progress, on common ground. Industrial technology, India.",
         "custom_hero": True,
         "priority": "1.0",
         "faq": [
-            ("What does Bluarc Labs do?",
-             "Bluarc Labs is an industrial technology company in India. We work on three connected areas for industrial plants: OT (operational technology) security, Industry 4.0 and plant analytics, and embedded hardware and sensing."),
+            ("What does BluArc Labs do?",
+             "BluArc Labs is an industrial technology company in India. We work on three connected areas for industrial plants: OT (operational technology) security, Industry 4.0 and plant analytics, and embedded hardware and sensing."),
             ("What is OT security?",
              "OT security protects the systems that run physical operations: the plant-floor PCs, operator stations and engineering workstations behind production. It differs from IT security because uptime, safety and long equipment lifecycles come first."),
             ("What is SAFE?",
-             "SAFE by Bluarc Labs is our first product: security for industrial computers, built for plant-floor PCs and operator stations where standard IT tools don't fit. It is in development, and we share details in private briefings."),
-            ("Where is Bluarc Labs based?",
-             "Bluarc Labs is based in India. We design for industrial plants, starting with manufacturing in India."),
-            ("How can we work with Bluarc Labs?",
+             "SAFE by BluArc Labs is our first product: security for industrial computers, built for plant-floor PCs and operator stations where standard IT tools don't fit. It is in development, and we share details in private briefings."),
+            ("Where is BluArc Labs based?",
+             "BluArc Labs is based in India. We design for industrial plants, starting with manufacturing in India."),
+            ("How can we work with BluArc Labs?",
              f"Email {EMAIL} with a short note about your plant, your data or your security questions."),
         ],
     },
     {
         "key": "ot-security",
         "path": "/ot-security/",
-        "title": "OT Security for Industrial Plants | Bluarc Labs",
+        "title": "OT Security for Industrial Plants | BluArc Labs",
         "description": "OT security for plant-floor PCs, operator stations and engineering workstations, built around uptime, long lifecycles and the realities of plants in India.",
         "og_image": "/assets/og/ot-security.png",
-        "og_alt": "OT security for industrial plants. Bluarc Labs.",
+        "og_alt": "OT security for industrial plants. BluArc Labs.",
         "crumb": "OT security",
         "label": "Focus area 01",
         "h1": ["OT security for", "industrial plants."],
@@ -88,16 +82,16 @@ PAGES = [
             ("What is IEC 62443?",
              "IEC 62443 is a series of international standards for the security of industrial automation and control systems. It covers how to organise systems into zones, how to manage access and change, and what security capabilities components should have."),
             ("Do you work with plants in India?",
-             "Yes. Bluarc Labs is based in India, and we design with the conditions of Indian manufacturing plants in mind."),
+             "Yes. BluArc Labs is based in India, and we design with the conditions of Indian manufacturing plants in mind."),
         ],
     },
     {
         "key": "plant-analytics",
         "path": "/plant-analytics/",
-        "title": "Plant Analytics & Predictive Maintenance | Bluarc Labs",
-        "description": "Industry 4.0 plant analytics from Bluarc Labs: condition monitoring, predictive maintenance and process data turned into decisions operators can act on.",
+        "title": "Plant Analytics & Predictive Maintenance | BluArc Labs",
+        "description": "Industry 4.0 plant analytics from BluArc Labs: condition monitoring, predictive maintenance and process data turned into decisions operators can act on.",
         "og_image": "/assets/og/plant-analytics.png",
-        "og_alt": "Plant data into clearer decisions. Bluarc Labs.",
+        "og_alt": "Plant data into clearer decisions. BluArc Labs.",
         "crumb": "Plant analytics",
         "label": "Focus area 02",
         "h1": ["Plant data into", "clearer decisions."],
@@ -120,10 +114,10 @@ PAGES = [
     {
         "key": "embedded-sensing",
         "path": "/embedded-sensing/",
-        "title": "Wireless Industrial Sensors & Hardware | Bluarc Labs",
+        "title": "Wireless Industrial Sensors & Hardware | BluArc Labs",
         "description": "Wireless sensors and embedded hardware designed in-house for harsh industrial environments: condition monitoring for motors, pumps and rotating equipment.",
         "og_image": "/assets/og/embedded-sensing.png",
-        "og_alt": "Sensing built for real conditions. Bluarc Labs.",
+        "og_alt": "Sensing built for real conditions. BluArc Labs.",
         "crumb": "Embedded sensing",
         "label": "Focus area 03",
         "h1": ["Sensing built for", "real conditions."],
@@ -144,15 +138,15 @@ PAGES = [
     {
         "key": "safe",
         "path": "/safe/",
-        "title": "SAFE by Bluarc Labs | Security for Industrial Computers",
-        "description": "SAFE by Bluarc Labs is security for plant-floor PCs and operator stations, where standard IT tools don't fit. In development; private briefings available.",
+        "title": "SAFE by BluArc Labs | Security for Industrial Computers",
+        "description": "SAFE by BluArc Labs is security for plant-floor PCs and operator stations, where standard IT tools don't fit. In development; private briefings available.",
         "og_image": "/assets/og/safe.png",
-        "og_alt": "SAFE by Bluarc Labs. Security for industrial computers.",
+        "og_alt": "SAFE by BluArc Labs. Security for industrial computers.",
         "crumb": "SAFE",
         "label": "Product / In development",
         "h1": ["Security for", "industrial computers."],
-        "lead": "SAFE by Bluarc Labs is built for plant-floor PCs and operator stations, where standard IT tools don't fit. A shared view. A clearer next step.",
-        "aside": '<div class="hero-endorsement"><img src="/assets/brand/safe-endorsement.svg" width="260" height="165" alt="SAFE by Bluarc Labs" fetchpriority="high"></div>',
+        "lead": "SAFE by BluArc Labs is built for plant-floor PCs and operator stations, where standard IT tools don't fit. A shared view. A clearer next step.",
+        "aside": '<div class="safe-card"><img src="/assets/brand/filament-fan.svg" width="1080" height="1080" alt="" fetchpriority="high"><p class="safe-card-name">SAFE</p><p class="safe-card-status"><span class="status-mark" aria-hidden="true"></span>In development</p></div>',
         "priority": "0.9",
         "faq": [
             ("Is SAFE available today?",
@@ -168,14 +162,14 @@ PAGES = [
     {
         "key": "company",
         "path": "/company/",
-        "title": "About Bluarc Labs | Industrial Technology Company, India",
-        "description": "Bluarc Labs is an industrial technology lab based in India, working where operational technology, data and hardware meet. Built around the plant floor.",
+        "title": "About BluArc Labs | Industrial Technology Company, India",
+        "description": "BluArc Labs is an industrial technology lab based in India, working where operational technology, data and hardware meet. Built around the plant floor.",
         "og_image": "/assets/og/company.png",
-        "og_alt": "Built around the plant floor. Bluarc Labs.",
+        "og_alt": "Built around the plant floor. BluArc Labs.",
         "crumb": "Company",
         "label": "Company",
         "h1": ["Built around", "the plant floor."],
-        "lead": "Bluarc Labs is an industrial technology lab based in India. We work where operational technology, data and hardware meet, and we build our products alongside the plants that use them.",
+        "lead": "BluArc Labs is an industrial technology lab based in India. We work where operational technology, data and hardware meet, and we build our products alongside the plants that use them.",
         "toc": [("what", "What we do"), ("name", "The name"), ("principles", "Principles"), ("where", "Where we work")],
         "page_type": "AboutPage",
         "priority": "0.7",
@@ -183,10 +177,10 @@ PAGES = [
     {
         "key": "contact",
         "path": "/contact/",
-        "title": "Contact Bluarc Labs | Industrial Technology, India",
-        "description": f"Talk to Bluarc Labs about OT security, plant analytics, industrial sensing or a SAFE briefing. Email {EMAIL}.",
+        "title": "Contact BluArc Labs | Industrial Technology, India",
+        "description": f"Talk to BluArc Labs about OT security, plant analytics, industrial sensing or a SAFE briefing. Email {EMAIL}.",
         "og_image": "/assets/og/contact.png",
-        "og_alt": "Let's talk about your plant. Bluarc Labs.",
+        "og_alt": "Let's talk about your plant. BluArc Labs.",
         "crumb": "Contact",
         "label": "Contact",
         "h1": ["Let's talk about", "your plant."],
@@ -207,8 +201,8 @@ def org_schema():
     return {
         "@type": "Organization",
         "@id": f"{SITE}/#organization",
-        "name": "Bluarc Labs",
-        "alternateName": "Bluarc",
+        "name": "BluArc Labs",
+        "alternateName": ["BluArc", "Bluarc Labs"],
         "url": f"{SITE}/",
         "logo": {"@type": "ImageObject", "url": f"{SITE}/assets/icons/icon-512.png", "width": 512, "height": 512},
         "image": f"{SITE}/assets/og/home.png",
@@ -230,7 +224,7 @@ def schema(page):
     url = SITE + page["path"]
     graph = [
         org_schema(),
-        {"@type": "WebSite", "@id": f"{SITE}/#website", "url": f"{SITE}/", "name": "Bluarc Labs",
+        {"@type": "WebSite", "@id": f"{SITE}/#website", "url": f"{SITE}/", "name": "BluArc Labs",
          "inLanguage": "en-IN", "publisher": {"@id": f"{SITE}/#organization"}},
     ]
     webpage = {
@@ -293,12 +287,12 @@ def head(page):
   <meta name="description" content="{d}">
   <link rel="canonical" href="{url}">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <meta name="theme-color" content="#155DA6">
+  <meta name="theme-color" content="#1F8FD8">
   <meta name="color-scheme" content="light">
-  <meta name="author" content="Bluarc Labs">
+  <meta name="author" content="BluArc Labs">
 
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Bluarc Labs">
+  <meta property="og:site_name" content="BluArc Labs">
   <meta property="og:locale" content="en_IN">
   <meta property="og:title" content="{t}">
   <meta property="og:description" content="{d}">
@@ -314,12 +308,13 @@ def head(page):
   <meta name="twitter:image" content="{img}">
   <meta name="twitter:image:alt" content="{alt}">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
   <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
 
-  <link rel="preload" href="/assets/fonts/anek-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/BluArcSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/BluArcSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/styles.css">
   <script>document.documentElement.classList.add('js');</script>
 
@@ -342,8 +337,8 @@ def header(page):
 
   <header class="site-header" id="top">
     <div class="container header-inner">
-      <a class="brand" href="/" aria-label="Bluarc Labs home">
-        <img src="/assets/brand/lockup.svg" width="160" height="43" alt="Bluarc Labs">
+      <a class="brand" href="/" aria-label="BluArc Labs home">
+        <img src="/assets/brand/logo.svg" width="196" height="35" alt="BluArc Labs">
       </a>
 
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
@@ -427,13 +422,13 @@ def related_section(page):
           </a>""" for key, href, num, title, desc in FOCUS if key != page["key"])
     return f"""    <section class="block block-tight block-wash" aria-labelledby="related-title">
       <div class="container">
-        <p class="label">More from Bluarc Labs</p>
+        <p class="label">More from BluArc Labs</p>
         <h2 id="related-title" class="h2-sm">Keep exploring.</h2>
         <div class="related-grid">
 {cards}
           <a class="related-card reveal" href="/safe/">
             <span class="related-num">Product /</span>
-            <span class="related-title">SAFE by Bluarc Labs</span>
+            <span class="related-title">SAFE by BluArc Labs</span>
             <span class="related-desc">Security for industrial computers.</span>
             <span class="related-arrow" aria-hidden="true">&rarr;</span>
           </a>
@@ -463,10 +458,11 @@ def cta_band(page):
 def footer():
     focus = "".join(f'<li><a href="{href}">{esc(title)}</a></li>' for _, href, _, title, _ in FOCUS)
     return f"""  <footer class="site-footer">
+    <div class="footer-lattice" aria-hidden="true"></div>
     <div class="container footer-inner">
       <div class="footer-brand">
-        <a class="brand" href="/" aria-label="Bluarc Labs home">
-          <img src="/assets/brand/lockup-reverse.svg" width="160" height="43" alt="Bluarc Labs" loading="lazy" decoding="async">
+        <a class="brand" href="/" aria-label="BluArc Labs home">
+          <img src="/assets/brand/logo.svg" width="196" height="35" alt="BluArc Labs" loading="lazy" decoding="async">
         </a>
         <p class="footer-about">Industrial technology company in India: OT security, plant analytics and embedded sensing for industrial plants.</p>
       </div>
@@ -484,7 +480,7 @@ def footer():
       </div>
     </div>
     <div class="container footer-bottom">
-      <p>&copy; <span id="year">2026</span> Bluarc Labs. All rights reserved.</p>
+      <p>&copy; <span id="year">2026</span> BluArc Labs. All rights reserved.</p>
       <p class="footer-sign">Real conditions. Clearer decisions.</p>
     </div>
   </footer>

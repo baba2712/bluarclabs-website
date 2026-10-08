@@ -1,4 +1,4 @@
-// Bluarc Labs: header state, mobile menu, scroll reveal
+// BluArc Labs: header state, mobile menu, scroll reveal
 (function () {
   var header = document.querySelector('.site-header');
   var toggle = document.querySelector('.nav-toggle');

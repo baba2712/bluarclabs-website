@@ -1,6 +1,6 @@
-# Bluarc Labs
+# BluArc Labs
 
-> Bluarc Labs is an industrial technology company based in India. It works on OT (operational technology) security, Industry 4.0 and plant analytics, and embedded hardware and sensing for industrial plants. Tagline: "Real conditions. Clearer decisions."
+> BluArc Labs is an industrial technology company based in India. It works on OT (operational technology) security, Industry 4.0 and plant analytics, and embedded hardware and sensing for industrial plants. Tagline: "Real conditions. Clearer decisions."
 
 Contact: founder@bluarclabs.com
 
@@ -10,6 +10,6 @@ Contact: founder@bluarclabs.com
 - [OT security](https://bluarclabs.com/ot-security/): protecting the computers that run production (operator stations, engineering workstations, plant-floor PCs) where standard IT security tools don't fit. Informed by IEC 62443 and NIST SP 800-82.
 - [Plant analytics](https://bluarclabs.com/plant-analytics/): condition monitoring, predictive maintenance and process analytics.
 - [Embedded sensing](https://bluarclabs.com/embedded-sensing/): wireless condition sensors and embedded hardware designed in-house for harsh industrial environments.
-- [SAFE by Bluarc Labs](https://bluarclabs.com/safe/): security for industrial computers (plant-floor PCs and operator stations). In development; a 3-month pilot is planned with a large Indian manufacturer. Technical detail is shared in private briefings.
-- [Company](https://bluarclabs.com/company/): about Bluarc Labs, the meaning of the name, principles.
+- [SAFE by BluArc Labs](https://bluarclabs.com/safe/): security for industrial computers (plant-floor PCs and operator stations). In development; a 3-month pilot is planned with a large Indian manufacturer. Technical detail is shared in private briefings.
+- [Company](https://bluarclabs.com/company/): about BluArc Labs, the meaning of the name, principles.
 - [Contact](https://bluarclabs.com/contact/): enquiry topics and email.
